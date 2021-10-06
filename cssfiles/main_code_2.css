@@ -3278,21 +3278,21 @@ body.p-profiles .mass-actions .action a:hover:AFTER {
     border: 0!important;
 }
 .p-dashboards-show .v2 .fc-user-sections .tag-link.manga-tag {
-    color: #cae4ff;
+color: #cae4ff;
     background: linear-gradient(45deg, #3f6f9ebd 0%, #425571a8 50%, #326098c9);
     
     
 }
     
 .p-dashboards-show .v2 .fc-user-sections .tag-link.anime-tag {
-    color: #ffcacd;
+color: #ffcacd;
     background: linear-gradient(45deg, #a05050bd 0%, #6b3f3fbd 50%, #ad5353bd);
     
    
 }
 
 .p-dashboards-show .v2 .fc-user-sections .tag-link.ranobe-tag {
-    color: #bef1cd;
+color: #bef1cd;
     background: linear-gradient(45deg, #34804dbd 0%, #427153a8 50%, #298451c9);   
    
 }
