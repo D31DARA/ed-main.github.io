@@ -1,0 +1,31 @@
+/* СНЕГ В ПРОФИЛЕ |*/ /*snow profile*/
+/* СНЕГ В ПРОФИЛЕ |*/ /* Слой с изображениями снега */
+/* СНЕГ В ПРОФИЛЕ |*/ .p-dashboards, .p-dashboards-show x1200, div.profile-head, #profiles_show, .p-profiles, .p-profiles-show x1200, .p-profiles-edit x1200, .l-top_menu-v2, .profile-content, .profile-head, .l-page, .p-profiles, .l-top_menu-v2, .profile-content, .profile-head, .l-page, .in-page-channel-node-id, .p-dashboards-show .v2 .fc-user-sections .f-user {
+/* СНЕГ В ПРОФИЛЕ |*/   /* Изображения снега: */
+/* СНЕГ В ПРОФИЛЕ |*/   background-image: url("https://i.imgur.com/TpOI4DC.png"),
+/* СНЕГ В ПРОФИЛЕ |*/                     url("https://i.imgur.com/92lgmBN.png"),
+/* СНЕГ В ПРОФИЛЕ |*/                     url("https://i.imgur.com/ACiIkIG.png");
+/* СНЕГ В ПРОФИЛЕ |*/   /* Размер изображений по порядку: */
+/* СНЕГ В ПРОФИЛЕ |*/   /* (размер уменьшен в 2 раза: снежинки больше похожи на точки, чем на  детские рисунки */
+/* СНЕГ В ПРОФИЛЕ |*/   /* (можно удалить) */
+/* СНЕГ В ПРОФИЛЕ |*/   background-size: 250px, 200px, 150px;
+/* СНЕГ В ПРОФИЛЕ |*/   /* Скорость анимации: */
+/* СНЕГ В ПРОФИЛЕ |*/   /* (чем больше время, тем медленнее идет снег) */
+/* СНЕГ В ПРОФИЛЕ |*/   animation: snow 16s linear infinite;
+/* СНЕГ В ПРОФИЛЕ |*/ }
+/* СНЕГ В ПРОФИЛЕ |*/ 
+/* СНЕГ В ПРОФИЛЕ |*/ /* Анимация снега */
+/* СНЕГ В ПРОФИЛЕ |*/ @keyframes snow {
+/* СНЕГ В ПРОФИЛЕ |*/   0% {
+/* СНЕГ В ПРОФИЛЕ |*/     background-position: 0px 0px,
+/* СНЕГ В ПРОФИЛЕ |*/                          0px 0px,
+/* СНЕГ В ПРОФИЛЕ |*/                          0px 0px;
+/* СНЕГ В ПРОФИЛЕ |*/   }
+/* СНЕГ В ПРОФИЛЕ |*/   100% {
+/* СНЕГ В ПРОФИЛЕ |*/     /* (Указан полный размер изображений по прядку, указанному в body:before) */
+/* СНЕГ В ПРОФИЛЕ |*/     background-position: 500px 1000px,
+/* СНЕГ В ПРОФИЛЕ |*/                          400px 400px,
+/* СНЕГ В ПРОФИЛЕ |*/                          300px 300px;
+/* СНЕГ В ПРОФИЛЕ |*/   }
+/* СНЕГ В ПРОФИЛЕ |*/ }
+/* СНЕГ В ПРОФИЛЕ |*/ /*snow profile*/
